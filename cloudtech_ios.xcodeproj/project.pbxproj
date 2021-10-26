@@ -13,6 +13,15 @@
 		0D14FF69271B33E80032DE7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D14FF68271B33E80032DE7B /* Preview Assets.xcassets */; };
 		0D14FF6B271B33E80032DE7B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF6A271B33E80032DE7B /* Persistence.swift */; };
 		0D14FF6E271B33E80032DE7B /* cloudtech_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF6C271B33E80032DE7B /* cloudtech_ios.xcdatamodeld */; };
+		0D14FF77271B34A00032DE7B /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF76271B34A00032DE7B /* OnboardView.swift */; };
+		0D14FF7E271B3D2C0032DE7B /* MaisonNeue-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D14FF7A271B3D2B0032DE7B /* MaisonNeue-Book.ttf */; };
+		0D14FF7F271B3D2C0032DE7B /* MaisonNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D14FF7B271B3D2B0032DE7B /* MaisonNeue-Bold.ttf */; };
+		0D14FF80271B3D2C0032DE7B /* Maison Neue Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D14FF7C271B3D2C0032DE7B /* Maison Neue Mono.ttf */; };
+		0D14FF81271B3D2C0032DE7B /* MaisonNeue-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D14FF7D271B3D2C0032DE7B /* MaisonNeue-Medium.ttf */; };
+		0D14FF84271B45940032DE7B /* ManageDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF83271B45930032DE7B /* ManageDeviceView.swift */; };
+		0D14FF86271B670B0032DE7B /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF85271B670B0032DE7B /* RoundCorners.swift */; };
+		0D14FF88271C915B0032DE7B /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF87271C915A0032DE7B /* AddDeviceView.swift */; };
+		0D14FF8A272202090032DE7B /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF89272202080032DE7B /* AuthenticationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +32,16 @@
 		0D14FF68271B33E80032DE7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D14FF6A271B33E80032DE7B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0D14FF6D271B33E80032DE7B /* cloudtech_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cloudtech_ios.xcdatamodel; sourceTree = "<group>"; };
+		0D14FF76271B34A00032DE7B /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+		0D14FF7A271B3D2B0032DE7B /* MaisonNeue-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MaisonNeue-Book.ttf"; path = "../../../../../../../../Library/Fonts/MaisonNeue-Book.ttf"; sourceTree = "<group>"; };
+		0D14FF7B271B3D2B0032DE7B /* MaisonNeue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MaisonNeue-Bold.ttf"; path = "../../../../../../../../Library/Fonts/MaisonNeue-Bold.ttf"; sourceTree = "<group>"; };
+		0D14FF7C271B3D2C0032DE7B /* Maison Neue Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Maison Neue Mono.ttf"; path = "../../../../../../../../Library/Fonts/Maison Neue Mono.ttf"; sourceTree = "<group>"; };
+		0D14FF7D271B3D2C0032DE7B /* MaisonNeue-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MaisonNeue-Medium.ttf"; path = "../../../../../../../../Library/Fonts/MaisonNeue-Medium.ttf"; sourceTree = "<group>"; };
+		0D14FF82271B3D4C0032DE7B /* cloudtech-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "cloudtech-ios-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0D14FF83271B45930032DE7B /* ManageDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageDeviceView.swift; sourceTree = "<group>"; };
+		0D14FF85271B670B0032DE7B /* RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		0D14FF87271C915A0032DE7B /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
+		0D14FF89272202080032DE7B /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +74,15 @@
 		0D14FF60271B33E30032DE7B /* cloudtech_ios */ = {
 			isa = PBXGroup;
 			children = (
+				0D14FF82271B3D4C0032DE7B /* cloudtech-ios-Info.plist */,
+				0D14FF78271B3CF70032DE7B /* Fonts */,
 				0D14FF61271B33E30032DE7B /* cloudtech_iosApp.swift */,
 				0D14FF63271B33E30032DE7B /* ContentView.swift */,
-				0D14FF65271B33E80032DE7B /* Assets.xcassets */,
 				0D14FF6A271B33E80032DE7B /* Persistence.swift */,
+				0D14FF75271B34540032DE7B /* Modifiers */,
+				0D14FF74271B342A0032DE7B /* VIews */,
 				0D14FF6C271B33E80032DE7B /* cloudtech_ios.xcdatamodeld */,
+				0D14FF65271B33E80032DE7B /* Assets.xcassets */,
 				0D14FF67271B33E80032DE7B /* Preview Content */,
 			);
 			path = cloudtech_ios;
@@ -71,6 +94,44 @@
 				0D14FF68271B33E80032DE7B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D14FF74271B342A0032DE7B /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				0D14FF76271B34A00032DE7B /* OnboardView.swift */,
+				0D14FF89272202080032DE7B /* AuthenticationView.swift */,
+				0D14FF83271B45930032DE7B /* ManageDeviceView.swift */,
+				0D14FF87271C915A0032DE7B /* AddDeviceView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		0D14FF75271B34540032DE7B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				0D14FF85271B670B0032DE7B /* RoundCorners.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		0D14FF78271B3CF70032DE7B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0D14FF79271B3D000032DE7B /* Primary */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0D14FF79271B3D000032DE7B /* Primary */ = {
+			isa = PBXGroup;
+			children = (
+				0D14FF7C271B3D2C0032DE7B /* Maison Neue Mono.ttf */,
+				0D14FF7B271B3D2B0032DE7B /* MaisonNeue-Bold.ttf */,
+				0D14FF7A271B3D2B0032DE7B /* MaisonNeue-Book.ttf */,
+				0D14FF7D271B3D2C0032DE7B /* MaisonNeue-Medium.ttf */,
+			);
+			path = Primary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +193,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D14FF69271B33E80032DE7B /* Preview Assets.xcassets in Resources */,
+				0D14FF80271B3D2C0032DE7B /* Maison Neue Mono.ttf in Resources */,
+				0D14FF7F271B3D2C0032DE7B /* MaisonNeue-Bold.ttf in Resources */,
+				0D14FF7E271B3D2C0032DE7B /* MaisonNeue-Book.ttf in Resources */,
 				0D14FF66271B33E80032DE7B /* Assets.xcassets in Resources */,
+				0D14FF81271B3D2C0032DE7B /* MaisonNeue-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +209,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D14FF6B271B33E80032DE7B /* Persistence.swift in Sources */,
+				0D14FF84271B45940032DE7B /* ManageDeviceView.swift in Sources */,
+				0D14FF88271C915B0032DE7B /* AddDeviceView.swift in Sources */,
+				0D14FF86271B670B0032DE7B /* RoundCorners.swift in Sources */,
+				0D14FF77271B34A00032DE7B /* OnboardView.swift in Sources */,
+				0D14FF8A272202090032DE7B /* AuthenticationView.swift in Sources */,
 				0D14FF64271B33E30032DE7B /* ContentView.swift in Sources */,
 				0D14FF62271B33E30032DE7B /* cloudtech_iosApp.swift in Sources */,
 				0D14FF6E271B33E80032DE7B /* cloudtech_ios.xcdatamodeld in Sources */,
@@ -280,11 +350,13 @@
 				DEVELOPMENT_TEAM = RWYZ6F567Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cloudtech-ios-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,11 +382,13 @@
 				DEVELOPMENT_TEAM = RWYZ6F567Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cloudtech-ios-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
