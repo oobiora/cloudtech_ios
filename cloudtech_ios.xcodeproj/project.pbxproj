@@ -22,9 +22,12 @@
 		0D14FF86271B670B0032DE7B /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF85271B670B0032DE7B /* RoundCorners.swift */; };
 		0D14FF88271C915B0032DE7B /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF87271C915A0032DE7B /* AddDeviceView.swift */; };
 		0D14FF8A272202090032DE7B /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D14FF89272202080032DE7B /* AuthenticationView.swift */; };
+		0DDF507B2728A949007153EA /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF507A2728A949007153EA /* Index.swift */; };
+		C49A2EE03DC57C59729D02C7 /* Pods_cloudtech_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D16C25C64DE3F3A22BDC72 /* Pods_cloudtech_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B13597D7557DD35BC91BA4 /* Pods-cloudtech_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudtech_ios.debug.xcconfig"; path = "Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios.debug.xcconfig"; sourceTree = "<group>"; };
 		0D14FF5E271B33E30032DE7B /* cloudtech_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cloudtech_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D14FF61271B33E30032DE7B /* cloudtech_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cloudtech_iosApp.swift; sourceTree = "<group>"; };
 		0D14FF63271B33E30032DE7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +45,9 @@
 		0D14FF85271B670B0032DE7B /* RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
 		0D14FF87271C915A0032DE7B /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
 		0D14FF89272202080032DE7B /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		0DDF507A2728A949007153EA /* Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Index.swift; sourceTree = "<group>"; };
+		13D16C25C64DE3F3A22BDC72 /* Pods_cloudtech_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cloudtech_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB19851DB79FF5C50DC3D409 /* Pods-cloudtech_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudtech_ios.release.xcconfig"; path = "Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +55,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49A2EE03DC57C59729D02C7 /* Pods_cloudtech_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0933DC272F7A86005B5093 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
 		0D14FF55271B33E30032DE7B = {
 			isa = PBXGroup;
 			children = (
 				0D14FF60271B33E30032DE7B /* cloudtech_ios */,
 				0D14FF5F271B33E30032DE7B /* Products */,
+				E377EEF79B9869B625FFFE36 /* Pods */,
+				6E791953BCB234DA25A8699D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +94,8 @@
 				0D14FF78271B3CF70032DE7B /* Fonts */,
 				0D14FF61271B33E30032DE7B /* cloudtech_iosApp.swift */,
 				0D14FF63271B33E30032DE7B /* ContentView.swift */,
+				0DDF507A2728A949007153EA /* Index.swift */,
+				0D0933DC272F7A86005B5093 /* Flows */,
 				0D14FF6A271B33E80032DE7B /* Persistence.swift */,
 				0D14FF75271B34540032DE7B /* Modifiers */,
 				0D14FF74271B342A0032DE7B /* VIews */,
@@ -134,6 +152,23 @@
 			path = Primary;
 			sourceTree = "<group>";
 		};
+		6E791953BCB234DA25A8699D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D16C25C64DE3F3A22BDC72 /* Pods_cloudtech_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E377EEF79B9869B625FFFE36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B13597D7557DD35BC91BA4 /* Pods-cloudtech_ios.debug.xcconfig */,
+				CB19851DB79FF5C50DC3D409 /* Pods-cloudtech_ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D14FF71271B33E80032DE7B /* Build configuration list for PBXNativeTarget "cloudtech_ios" */;
 			buildPhases = (
+				92196B36823D1C985AA2CE47 /* [CP] Check Pods Manifest.lock */,
 				0D14FF5A271B33E30032DE7B /* Sources */,
 				0D14FF5B271B33E30032DE7B /* Frameworks */,
 				0D14FF5C271B33E30032DE7B /* Resources */,
+				A4A26B65E3B8DBF1E56C27D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -203,6 +240,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92196B36823D1C985AA2CE47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudtech_ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A26B65E3B8DBF1E56C27D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D14FF5A271B33E30032DE7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -212,6 +291,7 @@
 				0D14FF84271B45940032DE7B /* ManageDeviceView.swift in Sources */,
 				0D14FF88271C915B0032DE7B /* AddDeviceView.swift in Sources */,
 				0D14FF86271B670B0032DE7B /* RoundCorners.swift in Sources */,
+				0DDF507B2728A949007153EA /* Index.swift in Sources */,
 				0D14FF77271B34A00032DE7B /* OnboardView.swift in Sources */,
 				0D14FF8A272202090032DE7B /* AuthenticationView.swift in Sources */,
 				0D14FF64271B33E30032DE7B /* ContentView.swift in Sources */,
@@ -341,6 +421,7 @@
 		};
 		0D14FF72271B33E80032DE7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B13597D7557DD35BC91BA4 /* Pods-cloudtech_ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -373,6 +454,7 @@
 		};
 		0D14FF73271B33E80032DE7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB19851DB79FF5C50DC3D409 /* Pods-cloudtech_ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

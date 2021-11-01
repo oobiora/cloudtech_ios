@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1002AA927B6732554A0A1ABCFDF3E71C /* Pods-cloudtech_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10253260639D3EA15F57209F23BEBE08 /* Pods-cloudtech_ios-dummy.m */; };
+		297B9B5B41955CB73349F3D36887F925 /* ConcentricOnboarding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F8FC17380FA6A8D6E2130537A20BBC /* ConcentricOnboarding-dummy.m */; };
+		32D0D3CED7524D0FA666430DEDA396BA /* Pods-cloudtech_ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C139950A70D2E4D65A2D6BA8BCA055A /* Pods-cloudtech_ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62AB2F4097E734B564B673F7641958F6 /* AnimatableShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D991B8DA8842FF3F2D97B030998E0AD /* AnimatableShape.swift */; };
+		693EBDF0F0EA1DB38918437C0E6A0B77 /* AnimationCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6731F1E10849C92C95477C30EB1B2A08 /* AnimationCompletion.swift */; };
+		87530C245852A0045CC31BDE65A30899 /* ConcentricOnboarding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 513A2E553C78DA28F56CC5DF7B5EE818 /* ConcentricOnboarding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F30476163BD8340DF09C9F3E92BBBB5 /* ConcentricOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E307794701B2DC726D11564B4E0E98 /* ConcentricOnboardingView.swift */; };
+		AE2FEAE8C43CA8CCC2B78A112BABAF14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F03FA627AFE84F781C22D2B6CE051975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10471BC81D1D209DE5691747E0BD5CF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DC85ED8FED1526E37F8CD0FEBA5F717;
+			remoteInfo = ConcentricOnboarding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB5946A6A1A0BE0284147B29665D90B /* ConcentricOnboarding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ConcentricOnboarding-Info.plist"; sourceTree = "<group>"; };
+		10253260639D3EA15F57209F23BEBE08 /* Pods-cloudtech_ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cloudtech_ios-dummy.m"; sourceTree = "<group>"; };
+		298B8F3978F9239678300AAC288B4405 /* ConcentricOnboarding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConcentricOnboarding.debug.xcconfig; sourceTree = "<group>"; };
+		29E307794701B2DC726D11564B4E0E98 /* ConcentricOnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConcentricOnboardingView.swift; path = Sources/ConcentricOnboarding/ConcentricOnboardingView.swift; sourceTree = "<group>"; };
+		330F7D17FDA99CE007A550114D81B863 /* Pods_cloudtech_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cloudtech_ios.framework; path = "Pods-cloudtech_ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9B03EDC0EAAADA52F8217E5D5D69C9 /* ConcentricOnboarding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ConcentricOnboarding.release.xcconfig; sourceTree = "<group>"; };
+		513A2E553C78DA28F56CC5DF7B5EE818 /* ConcentricOnboarding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConcentricOnboarding-umbrella.h"; sourceTree = "<group>"; };
+		62F8FC17380FA6A8D6E2130537A20BBC /* ConcentricOnboarding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ConcentricOnboarding-dummy.m"; sourceTree = "<group>"; };
+		6731F1E10849C92C95477C30EB1B2A08 /* AnimationCompletion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationCompletion.swift; path = Sources/ConcentricOnboarding/Helpers/AnimationCompletion.swift; sourceTree = "<group>"; };
+		6DA900DD3EF522610F3A7D82E54C6FB7 /* Pods-cloudtech_ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cloudtech_ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7542FEED77AA80F20C3FB74EA7AA0101 /* ConcentricOnboarding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ConcentricOnboarding.modulemap; sourceTree = "<group>"; };
+		7D991B8DA8842FF3F2D97B030998E0AD /* AnimatableShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatableShape.swift; path = Sources/ConcentricOnboarding/Helpers/AnimatableShape.swift; sourceTree = "<group>"; };
+		7EC685EC7D4E82DFCE38450DBAA7C702 /* Pods-cloudtech_ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cloudtech_ios-Info.plist"; sourceTree = "<group>"; };
+		7F71458CE565A818487FBE9D4B55CBC4 /* ConcentricOnboarding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ConcentricOnboarding-prefix.pch"; sourceTree = "<group>"; };
+		87CB26607C4BAED79385F5B41D16C80D /* ConcentricOnboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ConcentricOnboarding.framework; path = ConcentricOnboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C139950A70D2E4D65A2D6BA8BCA055A /* Pods-cloudtech_ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cloudtech_ios-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E714BDFCB00D3C664AC031AD79097A19 /* Pods-cloudtech_ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cloudtech_ios.debug.xcconfig"; sourceTree = "<group>"; };
+		EE9936EFA1EF8F9684E1E170EE2D18BA /* Pods-cloudtech_ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cloudtech_ios-frameworks.sh"; sourceTree = "<group>"; };
+		F91F8ECF1E6C81757C1D314EEC0FCDF4 /* Pods-cloudtech_ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cloudtech_ios.release.xcconfig"; sourceTree = "<group>"; };
+		FBA27699EA40E18529E7BB06E3011D60 /* Pods-cloudtech_ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cloudtech_ios.modulemap"; sourceTree = "<group>"; };
+		FC56A1075558C32FEABE037E3B85CE9C /* Pods-cloudtech_ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cloudtech_ios-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C02866E88684680BD505F785353AF22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE2FEAE8C43CA8CCC2B78A112BABAF14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA324542BCE392E98B4F8644B65A68F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03FA627AFE84F781C22D2B6CE051975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2521C1982DA650FEFECF21849AFC9A54 /* Pods-cloudtech_ios */ = {
+			isa = PBXGroup;
+			children = (
+				FBA27699EA40E18529E7BB06E3011D60 /* Pods-cloudtech_ios.modulemap */,
+				6DA900DD3EF522610F3A7D82E54C6FB7 /* Pods-cloudtech_ios-acknowledgements.markdown */,
+				FC56A1075558C32FEABE037E3B85CE9C /* Pods-cloudtech_ios-acknowledgements.plist */,
+				10253260639D3EA15F57209F23BEBE08 /* Pods-cloudtech_ios-dummy.m */,
+				EE9936EFA1EF8F9684E1E170EE2D18BA /* Pods-cloudtech_ios-frameworks.sh */,
+				7EC685EC7D4E82DFCE38450DBAA7C702 /* Pods-cloudtech_ios-Info.plist */,
+				9C139950A70D2E4D65A2D6BA8BCA055A /* Pods-cloudtech_ios-umbrella.h */,
+				E714BDFCB00D3C664AC031AD79097A19 /* Pods-cloudtech_ios.debug.xcconfig */,
+				F91F8ECF1E6C81757C1D314EEC0FCDF4 /* Pods-cloudtech_ios.release.xcconfig */,
+			);
+			name = "Pods-cloudtech_ios";
+			path = "Target Support Files/Pods-cloudtech_ios";
+			sourceTree = "<group>";
+		};
+		317FAD0536A08C717FFA0BD3076C3C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87CB26607C4BAED79385F5B41D16C80D /* ConcentricOnboarding.framework */,
+				330F7D17FDA99CE007A550114D81B863 /* Pods_cloudtech_ios.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4335A50C5D8B3817B4720A87B49F7CBA /* ConcentricOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7D991B8DA8842FF3F2D97B030998E0AD /* AnimatableShape.swift */,
+				6731F1E10849C92C95477C30EB1B2A08 /* AnimationCompletion.swift */,
+				29E307794701B2DC726D11564B4E0E98 /* ConcentricOnboardingView.swift */,
+				5B6CA3B36555549F451A15627A9CD41E /* Support Files */,
+			);
+			name = ConcentricOnboarding;
+			path = ConcentricOnboarding;
+			sourceTree = "<group>";
+		};
+		438F184F2723F21133168BACA3CEF5E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2521C1982DA650FEFECF21849AFC9A54 /* Pods-cloudtech_ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5B6CA3B36555549F451A15627A9CD41E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7542FEED77AA80F20C3FB74EA7AA0101 /* ConcentricOnboarding.modulemap */,
+				62F8FC17380FA6A8D6E2130537A20BBC /* ConcentricOnboarding-dummy.m */,
+				0DB5946A6A1A0BE0284147B29665D90B /* ConcentricOnboarding-Info.plist */,
+				7F71458CE565A818487FBE9D4B55CBC4 /* ConcentricOnboarding-prefix.pch */,
+				513A2E553C78DA28F56CC5DF7B5EE818 /* ConcentricOnboarding-umbrella.h */,
+				298B8F3978F9239678300AAC288B4405 /* ConcentricOnboarding.debug.xcconfig */,
+				4B9B03EDC0EAAADA52F8217E5D5D69C9 /* ConcentricOnboarding.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ConcentricOnboarding";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E35BA5381F009E74A310D03AD0282CBC /* Pods */,
+				317FAD0536A08C717FFA0BD3076C3C40 /* Products */,
+				438F184F2723F21133168BACA3CEF5E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35BA5381F009E74A310D03AD0282CBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4335A50C5D8B3817B4720A87B49F7CBA /* ConcentricOnboarding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22FABCD22BEE344D9DD14A9C1D2507E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32D0D3CED7524D0FA666430DEDA396BA /* Pods-cloudtech_ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C14BCAAEAF71AA23149AFD9A73B3B799 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87530C245852A0045CC31BDE65A30899 /* ConcentricOnboarding-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DC85ED8FED1526E37F8CD0FEBA5F717 /* ConcentricOnboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE1DBC136340C6AC31F08AD80992C7AA /* Build configuration list for PBXNativeTarget "ConcentricOnboarding" */;
+			buildPhases = (
+				C14BCAAEAF71AA23149AFD9A73B3B799 /* Headers */,
+				12A408BD07043326A9839E4EFD601F1E /* Sources */,
+				EA324542BCE392E98B4F8644B65A68F2 /* Frameworks */,
+				08D419D1FA186F248D344CB9237AFEC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcentricOnboarding;
+			productName = ConcentricOnboarding;
+			productReference = 87CB26607C4BAED79385F5B41D16C80D /* ConcentricOnboarding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60F1978C20AA28F4A24818C934DF7795 /* Pods-cloudtech_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4522DCA50BC01A70E33D952D1A2B2204 /* Build configuration list for PBXNativeTarget "Pods-cloudtech_ios" */;
+			buildPhases = (
+				22FABCD22BEE344D9DD14A9C1D2507E7 /* Headers */,
+				7FC4496B9B488D9BFCB6F01B90B9E625 /* Sources */,
+				6C02866E88684680BD505F785353AF22 /* Frameworks */,
+				E5E2A0C2B6C33394016E6CE3EFBA812B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3177A524A148B8DAA6C1775239DB286F /* PBXTargetDependency */,
+			);
+			name = "Pods-cloudtech_ios";
+			productName = "Pods-cloudtech_ios";
+			productReference = 330F7D17FDA99CE007A550114D81B863 /* Pods_cloudtech_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 317FAD0536A08C717FFA0BD3076C3C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC85ED8FED1526E37F8CD0FEBA5F717 /* ConcentricOnboarding */,
+				60F1978C20AA28F4A24818C934DF7795 /* Pods-cloudtech_ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08D419D1FA186F248D344CB9237AFEC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E2A0C2B6C33394016E6CE3EFBA812B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A408BD07043326A9839E4EFD601F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AB2F4097E734B564B673F7641958F6 /* AnimatableShape.swift in Sources */,
+				693EBDF0F0EA1DB38918437C0E6A0B77 /* AnimationCompletion.swift in Sources */,
+				297B9B5B41955CB73349F3D36887F925 /* ConcentricOnboarding-dummy.m in Sources */,
+				8F30476163BD8340DF09C9F3E92BBBB5 /* ConcentricOnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC4496B9B488D9BFCB6F01B90B9E625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1002AA927B6732554A0A1ABCFDF3E71C /* Pods-cloudtech_ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3177A524A148B8DAA6C1775239DB286F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConcentricOnboarding;
+			target = 1DC85ED8FED1526E37F8CD0FEBA5F717 /* ConcentricOnboarding */;
+			targetProxy = 10471BC81D1D209DE5691747E0BD5CF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		205A76E310A9E6AAACEE950A0AB9921F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298B8F3978F9239678300AAC288B4405 /* ConcentricOnboarding.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConcentricOnboarding/ConcentricOnboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConcentricOnboarding/ConcentricOnboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConcentricOnboarding/ConcentricOnboarding.modulemap";
+				PRODUCT_MODULE_NAME = ConcentricOnboarding;
+				PRODUCT_NAME = ConcentricOnboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DF41254F1244DDB8D7BA76AAFAEB042 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9B03EDC0EAAADA52F8217E5D5D69C9 /* ConcentricOnboarding.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ConcentricOnboarding/ConcentricOnboarding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ConcentricOnboarding/ConcentricOnboarding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ConcentricOnboarding/ConcentricOnboarding.modulemap";
+				PRODUCT_MODULE_NAME = ConcentricOnboarding;
+				PRODUCT_NAME = ConcentricOnboarding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C41983F9B31567ED09FFE7482C9C0AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E714BDFCB00D3C664AC031AD79097A19 /* Pods-cloudtech_ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE947511D240BACE4D69EC2642BD4870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91F8ECF1E6C81757C1D314EEC0FCDF4 /* Pods-cloudtech_ios.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cloudtech_ios/Pods-cloudtech_ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4522DCA50BC01A70E33D952D1A2B2204 /* Build configuration list for PBXNativeTarget "Pods-cloudtech_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C41983F9B31567ED09FFE7482C9C0AF1 /* Debug */,
+				FE947511D240BACE4D69EC2642BD4870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE1DBC136340C6AC31F08AD80992C7AA /* Build configuration list for PBXNativeTarget "ConcentricOnboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205A76E310A9E6AAACEE950A0AB9921F /* Debug */,
+				7DF41254F1244DDB8D7BA76AAFAEB042 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
