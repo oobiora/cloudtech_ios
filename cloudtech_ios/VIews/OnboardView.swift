@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnboardView: View {
+    @Binding var selection: String?
     @State var toggleState: Bool = false
     var body: some View {
         NavigationView {
@@ -30,7 +31,7 @@ struct OnboardView: View {
                         .font(Font.custom("Maison Neue Mono", size: 15))
                         .padding(.bottom, 8.0)
                     Spacer()
-                    FullWidthToggle(toggle: $toggleState)
+                    FullWidthToggle(toggle: $toggleState, selection: $selection)
                         .frame(width: .infinity)
                         .padding()
                     Spacer()
@@ -74,15 +75,17 @@ struct OnboardingButton: View {
     }
 }
 
-struct OnboardView_Previews: PreviewProvider {
-    static var previews: some View {
-        OnboardView()
-    }
-}
+//struct OnboardView_Previews: PreviewProvider {
+//    @Binding private var selection: String?
+//    static var previews: some View {
+//        OnboardView(selection: $selection)
+//    }
+//}
 
 //MARK: Full Width Toggle Button
 struct FullWidthToggle: View {
     @Binding var toggle: Bool
+    @Binding var selection: String?
     var body: some View {
         GeometryReader { geometry in
             ZStack {
@@ -102,7 +105,12 @@ struct FullWidthToggle: View {
                 
                 HStack(alignment: .center) {
                     Button(action: {
-                        toggle.toggle()
+                        if toggle {
+                            toggle.toggle()
+                        } else {
+                            selection = "AuthView"
+                        }
+                        
                     }){
                         Text("sign in")
                             .padding()
@@ -112,7 +120,12 @@ struct FullWidthToggle: View {
                     
                     
                     Button(action: {
-                        toggle.toggle()
+                        if !toggle {
+                            toggle.toggle()
+                        }
+                        if toggle {
+                            
+                        }
                     }){
                         Text("register")
                             .padding()

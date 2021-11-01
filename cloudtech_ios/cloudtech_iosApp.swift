@@ -15,7 +15,7 @@ struct cloudtech_iosApp: App {
         WindowGroup {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-            OnboardView()
+            Index()
         }
     }
 }
